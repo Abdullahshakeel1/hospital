@@ -1,0 +1,574 @@
+*{
+    padding: 0;
+    margin: 0;
+
+} 
+  .color-change-2x {
+    -webkit-animation: color-change-2x 2s linear infinite alternate both;
+            animation: color-change-2x 2s linear infinite alternate both;
+  }
+  
+
+
+
+    
+    a:hover{
+        text-decoration: none;
+        color: rgb(103, 220, 20);
+        
+    }
+
+
+  
+    
+    span{
+        color:white; 
+        
+    }
+     i{
+        color:white;
+      }
+      #phone{
+        color:white;
+      }
+      
+      /* for all social containers*/
+      .socialContainer {
+        width: 25px;
+        height: 25px;
+        background-color: rgb(44, 44, 44);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        transition-duration: .3s;
+        border-radius: 20px;
+      }
+      /* instagram*/
+      .containerOne:hover {
+        background-color: #d62976;
+        transition-duration: .3s;
+      }
+      /* twitter*/
+      .containerTwo:hover {
+        background-color: rgb(28, 150, 232);
+        transition-duration: .3s;
+      }
+      /* linkdin*/
+      .containerThree:hover {
+        background-color: rgb(0, 115, 177);
+        transition-duration: .3s;
+      }
+      /* Whatsapp*/
+      .containerFour:hover {
+        background-color:rgb(69, 193, 83);
+        transition-duration: .3s;
+      }
+      
+      .socialContainer:active {
+        transform: scale(0.9);
+        transition-duration: .3s;
+      }
+      
+      .socialSvg {
+        width: 17px;
+      }
+      
+      .socialSvg path {
+        fill: rgb(255  , 255  , 255);
+      }
+      
+      .socialContainer:hover .socialSvg {
+        animation: slide-in-top 0.3s both;
+      }
+      
+      @keyframes slide-in-top {
+        0% {
+          transform: translateY(-50px);
+          opacity: 0;
+        }
+      
+        100% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+        
+      }
+    
+      .input {
+        width: 200px;
+        background: none;
+        border: 2px;
+        outline: none;
+        border-radius: 9999px;
+        box-shadow: inset 2px 5px 10px rgb(0,0,0);
+        color: #fff;
+      }
+   
+    .in-mail{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 19px;
+       
+        
+    }
+    .in-mail-box:hover{
+        color: rgb(0, 72, 1);
+       
+    }
+    .in-mail:hover{
+        color: rgb(0, 69, 255);
+        text-decoration: none;
+        
+    }
+    
+    
+    .menu_1_bg a{
+        color: rgb(252, 254, 255);
+    
+        font-size: 12px;
+    }
+   
+    
+    .dropdown:hover .dropdown-menu{
+        display: block;
+    }
+    
+    video{
+      width: 100%;
+    
+    }
+   
+  
+    .box{
+      border: 1px solid rgb(234, 234, 234);
+      border-radius: 10px;
+    background-color: rgb(230, 241, 247)  ;
+      text-decoration: none;
+      font-size: 1.5rem;
+      height: 140px;
+      font-weight: bold;
+      color: rgb(12, 110, 145);
+
+    }
+    .box:hover{
+      background-color: rgb(206, 231, 244)  ;
+      color: rgb(41, 136, 171);
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .dengue-img{
+      width:90%;
+      height:70%;
+    }
+.intro-span{
+  color:rgb(12, 110, 159);
+  font-weight: bolder;
+}
+.intro-h1{
+  color:rgb(12, 110, 159);
+  font-size: 3.2rem;
+}
+.intro-h3{
+color:  rgb(20, 173, 215);
+font-size: 2.2rem;
+}
+.intro-p{
+  font-size:1.3rem ;
+  color: #888;
+}
+.intro-img{
+background-image:url(pic/Dengue.webp) ;
+background-position: center;
+background-size: cover;
+    
+  }
+
+.intro-size{
+ max-height:auto;
+}
+
+.h1-3{
+  font-size: 3rem;
+  font-weight: bolder;
+  color: rgb(12, 110, 145);
+}
+.a{
+position: absolute;
+ 
+  
+
+}
+.b{
+ width: 80%;
+  position: relative;
+  bottom: 50px;
+  left: 40px;
+  
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  text-wrap: wrap;
+}
+@media screen and (max-width: 1100px) {
+
+  .b {
+    background-color: #d62976;
+    left: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+
+  .b {
+    background-color: #060103;
+    left: 50px;
+  }
+  
+
+  
+}
+
+
+  
+.why-chose-us-bg {
+    background-color: rgb(240, 251, 255);
+}
+
+
+.why-chose-us-color {
+  color: rgb(12, 110, 145);
+  font-weight: bolder;
+ 
+}
+.At-hori-text-1{
+color: rgb(31, 84, 138);
+}
+.At-hori-text-2{
+  color:  rgb(12, 110, 145);
+  font-weight: bolder;
+  font-size: 2.8rem;
+}
+.At-hori-text-3{
+  font-size: 1.3rem;
+  color: #0400006a;
+}
+.At-hori-text-4{
+  color:  rgb(12, 110, 145)
+}
+
+
+
+.our-dr{
+  background-color: #f0ebeb;
+}
+.section-cards {
+  z-index: 3;
+  position: relative;
+}
+
+.section-gray {
+
+  padding: 60px 0 30px 0;
+}
+
+
+/*---------------------------------------------------------------------- /
+CARDS
+----------------------------------------------------------------------- */
+
+.card {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 6px;
+  color: rgba(0, 0, 0, 0.87);
+  background: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card .card-image {
+  height: 60%;
+  position: relative;
+  overflow: hidden;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: -30px;
+  border-radius: 6px;
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  pointer-events: none;
+}
+
+.card .card-image .card-caption {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: #fff;
+  font-size: 1.3em;
+  text-shadow: 0 2px 5px rgba(33, 33, 33, 0.5);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.img-raised {
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card .ftr {
+  margin-top: 15px;
+}
+
+.card .ftr div {
+  display: inline-block;
+}
+
+.card .ftr .author {
+  color: #888;
+}
+
+.card .ftr .stats {
+  float: right;
+  line-height: 30px;
+}
+
+.card .ftr .stats {
+  position: relative;
+  top: 1px;
+  font-size: 14px;
+}
+
+
+/* ============ Card Table ============ */
+
+.table {
+  margin-bottom: 0px;
+}
+
+.card .table {
+  padding: 15px 30px;
+}
+
+
+.card [class*="table-"] {
+  color: #FFFFFF;
+  border-radius: 6px;
+}
+
+.card [class*="table-"] .card-caption a,
+.card [class*="table-"] .card-caption,
+.card [class*="table-"] .icon i {
+  color: #FFFFFF;
+}
+
+.card [class*="table-"] .icon i {
+  border-color: rgba(255, 255, 255, 0.25);
+} 
+
+.card [class*="table-"] .author a,
+.card [class*="table-"] .ftr .stats,
+.card [class*="table-"] .category,
+.card [class*="table-"] .card-description {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.card [class*="table-"] .author a:hover,
+.card [class*="table-"] .author a:focus,
+.card [class*="table-"] .author a:active {
+  color: #FFFFFF;
+}
+
+.card [class*="table-"] h1 small,
+.card [class*="table-"] h2 small,
+.card [class*="table-"] h3 small {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+
+.update-h1{
+  color:rgb(12, 110, 145);
+  font-size: 3.3rem;
+  font-weight: bolder;
+}
+.colabes-h1{
+  color: rgb(12, 110, 145);
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.colabes-h3{
+  color:rgb(20, 173, 215);
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+.colbase{
+  background-color: rgb(245, 250, 252);
+}
+.jumbo-h1{
+  color: rgb(12, 110, 145);
+  font-size: 2.5rem;
+  font-weight: bolder;
+  background-color: rgb(211, 225, 232);
+  width: 100%;
+}
+
+.footer-bg{
+  background-color: #1c2331;
+}
+.footer-text{
+  color: rgb(138, 186, 199);
+}
+
+
+
+/* service part  */
+.servise-img{
+
+background-size: contain;
+width: 100%;
+
+overflow: hidden;
+
+}
+
+.career-bg{
+  background-color:rgb(224, 242, 252);
+}
+.career-h5{
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.career-h1{
+  font-size: 3.4rem;
+  font-weight: bold;
+  color: rgb(12, 110, 145);
+}
+.boxes-career :hover{
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+   rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.join-team-h1{
+
+  font-size: 3.4rem;
+  font-weight: bold;
+  color: rgb(12, 110, 145);
+
+}
+.join-team-p{
+  color: #060000b4;
+  font-size: 1rem;
+}
+
+.form-bg{
+  background-color: rgb(247, 252, 255);
+}
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+.team-h1{
+  color: rgb(12, 110, 145);
+  font-weight: bold;
+}
+.dr-img{
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+ 
+}
+
+.dr-name{
+  color: #0C6E91;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.hospital-pic{
+  width: 100%;
+}
+.overiew-p{
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #000000a4;
+  
+}
+.bold-overiew{
+  color: rgb(12, 110, 145);
+}
+.overview-h1{
+  color: rgb(12, 110, 145);
+  font-weight: bolder;
+  font-size: 2.8rem;
+}
+.leader-bg{
+  width: 100%;
+}
+
+.vission-h4{
+  color: rgb(42, 61, 83);
+}
+.vission-h1{
+  color:rgb(12, 110, 145); 
+}
+.vission-p{
+  color:rgba(0, 0, 0, 0.644);
+  font-size: 1.2rem;
+  
+}
+.header{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(pic/hospital.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  
+}
+.insur-border-h1{
+  color:rgb(12, 110, 145); 
+  font-size: 2.8rem;
+  font-weight: bolder;
+  border-bottom: #00bbff 5px solid;
+}
+.cararsol-bg{
+  background-color:rgb(224, 242, 252);
+}
+.h1-bg-admision{
+  background-color: rgb(230, 241, 247);
+  color:rgb(12, 110, 145); 
+}
+.h1-all{
+  color:rgb(12, 110, 145); 
+  font-weight: bold;
+  padding: 10px;
+}
+.h3-all{
+ 
+  font-weight: bold;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+.acc-h1{
+  color:rgb(12, 110, 145); 
+  color: #347fe2;
+  text-shadow: 4px 3px 0px #0088ff7c;
+font-weight: bold;
+
+}
+.img-contact{
+  background-image: url(pic/hospital.jpg);
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  background-attachment: fixed;
+}
+.ai{
+  -webkit-box-shadow: 5px 5px 15px 5px #7f7f7f; 
+box-shadow: 5px 5px 15px 5px #9c9c9c;
+}
